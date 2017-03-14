@@ -39,4 +39,6 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  SALT = "84c250e1f43c3ab8595adc62e858d360e677052b"
 end

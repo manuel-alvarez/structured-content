@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   resources :articles
   resources :posts
+  resources :users
   
   root 'welcome#index'
 end
